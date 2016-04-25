@@ -1,0 +1,8 @@
+#Sockets TCP
+
+gcc Server.c -o Server
+./Server
+telnet localhost 8888
+
+gcc Client.c -o Client
+./Client
